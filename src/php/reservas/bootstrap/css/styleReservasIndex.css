@@ -1,0 +1,11 @@
+.background {
+    background-image: url("/AplicacionGimnasio/src/php/reservas/class_image/fondo.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+body {
+    background-image: url("/AplicacionGimnasio/src/php/reservas/class_image/fondo2.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+}
