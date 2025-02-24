@@ -1,5 +1,5 @@
 <?php
 
-header("location: /AplicacionGimnasio/Views/index.php");
+header("location: /mundopaletacons/Views/index.php");
 
 ?>
