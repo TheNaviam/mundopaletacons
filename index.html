@@ -1,427 +1,184 @@
-<!DOCTYPE html>
-<html lang="ca">
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="">
-    <meta name="author" content="TheNaviam">
-    <title>Mundopaleta Cons S.L.</title>
-    <link href="css/main.css" rel="stylesheet">
-    <!--[if lt IE 9]>
-    <script src="js/html5shiv.js"></script>
-    <script src="js/respond.min.js"></script>
-    <![endif]-->
-    <link rel="shortcut icon" href="images/ico/favicon.ico">
-    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="images/ico/apple-touch-icon-144-precomposed.png">
-    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="images/ico/apple-touch-icon-114-precomposed.png">
-    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="images/ico/apple-touch-icon-72-precomposed.png">
-    <link rel="apple-touch-icon-precomposed" href="images/ico/apple-touch-icon-57-precomposed.png">
-</head><!--/head-->
+<HTML>
+	<HEAD>
+		<TITLE>Página principal</TITLE>
+		
+		<META http-equiv="Content-Type" content="text/html"; charset="UTF-8"/>
+		<STYLE>
+			Body {
+				background-color:#729fcf;
+				}
+			.contenedor{
+				text-align:center;
+				width:1000px;
+				height:1000px;
+				background-position:center;
+				background-color:transparent;
+				margin:0 auto;
+				}
+			.titulo {
+				float:top
+				text-align:center;
+				width:900px;
+				background-image:url(images/titulo.png);
+				background-color:transparent;
+				color:white;
+				height:100px;
+				font-size:60px;
+				padding-top:10px;
+				padding-left:0px;
+				padding-right:0px;
+				padding-bottom:10px;
+				text-shadow:black 2px -2px 1px;
+				}
+			.menusuperior {
+				border-radius:15px;
+				color:white;
+				float:top;
+				background-color:#204a87;
+				text-align:left;
+				padding-top:3px;
+				padding-left:10px;
+				padding-right:8px;
+				padding-bottom:3px;
+				}
+			.lateralizq {
+				float:left;
+				width:300px;
+				background-image:url(images/menuizq.png);
+				height:700px;
+				padding-top:30px;
+				padding-left:18px;
+				padding-right:8px;
+				padding-bottom:8px;
+				text-align:left;
+				border-radius:50px;
+				}
+			.contenido {
+				float:right; 
+				left:350px;
+				width:600px;
+				text-align:center;
+				background-color:white;
+				height:700px;
+				padding-top:30px;
+				padding-left:18px;
+				padding-right:8px;
+				padding-bottom:8px;
+				text-align:justify;
+				border-radius:28px;
+				}
+			.piedepagina{
+				text-align:right;
+				float:bottom;
+				background-color:#204a87;
+				border-radius:200px;
+				padding-top:8px;
+				padding-left:18px;
+				padding-right:18px;
+				padding-bottom:8px;
+				color:white;
+				}
+			.menu {
+				display:table-cell;
+				padding-left:5px;
+				padding-right:5px;
+				}
+			
+			P 	{
+				text-shadow:orange 2px -2px 1px;
+				word-spacing: 7px;
+				text-indent: 25px;
+				text-align:left;
+				}
+			H1 {
+				color:red;
+				text-shadow:black 8px -3px 2px;
+				text-align:center;
+				}
+			H2 {
+				color:blue;
+				text-shadow:black 8px -3px 2px;
+				text-align:center;
+				}
+			H3 {
+				color:black;
+				text-shadow:black 2px -1px 1px;
+				text-align:left;
+				}
+			A:link {
+				color:white;
+				text-decoration:none;
+				background-color:#061043;
+				border-radius:10px;
+				padding-left:5px;
+				padding-right:5px;
+				}
+			A:hover {
+				color:orange;
+				}
+			A:visited {
+				color:white;
+				}
+			A:active {
+				color:red;
+				}
+		</STYLE>
+		
+	</HEAD>
 
-<body data-spy="scroll" data-target="#navbar" data-offset="0">
-    <header id="header" role="banner">
-        <div class="container">
-            <div id="navbar" class="navbar navbar-default">
-                <div class="navbar-header">
-                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-                        <span class="sr-only">Toggle navigation</span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                    </button>
-                    <a class="navbar-brand" href="index.html"></a>
-                </div>
-                <div class="collapse navbar-collapse center colornombres">
-                    <ul class="nav navbar-nav">
-                        <li class="active colornombres"><a href="#main-slider"><i class="icon-home"></i></a></li>
-                        <li><a href="#services">Serveis</a></li>
-                        <li><a href="#portfolio">Coneixens</a></li>
-                        <li><a href="#pricing">Packs</a></li>
-                        <li><a href="#contact">Contacte</a></li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </header><!--/#header-->
-
-    <section id="main-slider" class="carousel">
-        <div class="carousel-inner">
-            <div class="item active">
-                <div class="container">
-                    <div class="carousel-content">
-                        <h1>BodhiVita</h1>
-                        <p class="lead margin">A BodhiVita no només trobaràs els professionals que t’ajudaran a tenir cura de la teva salut, sinó que també gaudiràs d’un espai on sentir-te com a casa.</p>
-                    </div>
-                </div>
-            </div><!--/.item-->
-            <div class="item ">
-                <div class="container">
-                    <div class="carousel-content">
-                        <h1>Nosaltres</h1>
-                        <p class="lead margin">BodhiVita és un centre de salut, amb excel·lent ubicació pel que fa a connexions amb transport públic i accessibilitat Disposem 3 sales àmplies per realitzar teràpies individualitzades i 1 sala per a la realització d'activitats dirigides.</p>
-                    </div>
-                </div>
-            </div><!--/.item-->
-        </div><!--/.carousel-inner-->
-        <a class="prev" href="#main-slider" data-slide="prev"><i class="icon-angle-left"></i></a>
-        <a class="next" href="#main-slider" data-slide="next"><i class="icon-angle-right"></i></a>
-    </section><!--/#main-slider-->
-
-    <section id="services">
-        <div class="container">
-            <div class="box first">
-                <div class="row">
-                    <div class="col-12 col-md-4 center">
-                        <a href="https://bodhivita.cat/osteopatia/">
-                            <img src="images/human-ribs.png" alt="Flowers in Chania" width="75" height="75">
-                            <h4 class="colornombres">Osteopatia</h4>
-                            <p class="enlace">L’osteopatia és considerada un art i una ciència per diagnosticar i tractar l’organisme a través de manipulacions musculoesquelètiques des de la globalitat. Per tant, podem dir que és un tractament personalitzat que provoca que el cos es curi a si mateix, a través de diferents tècniques per potenciar la força vital de cada pacient.</p></a>
-                    </div><!--/.col-md-4-->
-                    <div class="col-12 col-md-4 center">
-                        <a href="https://bodhivita.cat/fisioterapia-neurologica/">
-                            <img src="images/neuron.png" alt="Flowers in Chania" width="75" height="75">
-                            <h4 class="colornombres">Fisioteràpia Neurològica</h4>
-                            <p class="enlace">La fisioteràpia neurològica és l’especialitat que s’orienta a la recuperació de lesions al sistema nerviós siguin d’origen adquirit o congènit. Aquestes lesions poden donar-se al Sistema nerviós Central (encèfal i medul·la espinal) o al Sistema Nerviós Perifèric (arrels nervioses).</p></a>
-                    </div><!--/.col-md-4-->
-                    <div class="col-12 col-md-4 center">
-                        <a href="https://bodhivita.cat/logopedia/">
-                            <img src="images/mouth-open.png" alt="Flowers in Chania" width="75" height="75">
-                            <h4 class="colornombres">Logopèdia</h4>
-                            <p class="enlace">La logopèdia és una disciplina que s’encarrega d’avaluar, diagnosticar i tractar les dificultats relacionades amb la comunicació, la parla, el llenguatge, la veu, la deglució i les alteracions orofacials. La logopèdia és una professió que permet atendre a persones de totes les edats.</p></a>
-                    </div><!--/.col-md-4-->
-                </div>
-                <div class="row">
-                    <div class="col-12 col-md-4 center">
-                        <a href="https://bodhivita.cat/fisioterapia-traumatologica/">
-                            <img src="images/men-hand.png" alt="Flowers in Chania" width="75" height="75">
-                            <h4 class="colornombres">Fisioteràpia Traumatològica</h4>
-                            <p class="enlace">La fisioteràpia traumatològica és la disciplina de la fisioteràpia que s’encarrega d’avaluar i tractar lesions del sistema musculoesquelètic.</p></a>
-                    </div><!--/.col-md-4-->
-                    <div class="col-12 col-md-4 center">
-                        <a href="https://www.instagram.com/bodhivita/">
-                            <img src="images/bebe.png" alt="Flowers in Chania" width="75" height="75">
-                            <h4 class="colornombres">Fisioteràpia Pediàtrica</h4>
-                            <p class="enlace">La fisioteràpia pediàtrica és la disciplina de la fisioteràpia que s'encarrega de l'assessorament, tractament i cura d'aquells nadons, nens / es i adolescents que presenten un retard general en el seu desenvolupament, desordres en el moviment (tant congènits com adquirits) o que tenen risc de patir-los.</p></a>
-                    </div><!--/.col-md-4-->
-                    <div class="col-12 col-md-4 center">
-                        <a href="https://www.instagram.com/bodhivita/">
-                            <img src="images/bebe2.png" alt="Flowers in Chania" width="75" height="75">
-                            <h4 class="colornombres">Osteopatia Pediàtrica</h4>
-                            <p class="enlace">És una especialització, realitzada per fisioterapeutes i osteòpates, en què s'utilitzen tècniques manuals, adaptades i específiques, per als nadons i els nens. L'osteòpata diagnostica disfuncions de mobilitat en els diferents teixits corporals (articulacions, músculs, fàscies, vísceres ..) que poden estar creant símptomes locals o a distància.</p></a>
-                    </div><!--/.col-md-4-->
-                </div>
-                <div class="row">
-                    <div class="col-12 col-md-4 center">
-                        <a href="https://bodhivita.cat/neuropsicologia/">
-                            <img src="images/cerebro-humano-1.png" alt="Flowers in Chania" width="75" height="75">
-                            <h4 class="colornombres">Neuropsicologia</h4>
-                            <p class="enlace">La Neuropsicologia clínica és una ciència aplicada a la relació entre el cervell i la conducta. Els neuropsicòlegs realitzen tasques d’avaluació, diagnòstic, tractament i rehabilitació de pacients amb alteracions neurològiques, del neurodesenvolupament i / o psicopatològiques.</p></a>
-                    </div><!--/.col-md-4-->
-                    <div class="col-12 col-md-4 center">
-                        <a href="https://bodhivita.cat/acupuntura-mtc/">
-                            <img src="images/agujas-de-acupuntura.png" alt="Flowers in Chania" width="75" height="75">
-                            <h4 class="colornombres">Acupuntura MTC</h4>
-                            <p class="enlace">L’Acupuntura és una tècnica de la Medicina Tradicional Xinesa (MTX) que es basa en la inserció de fines agulles al  llarg dels meridians o canals energètics del cos.</p></a>
-                    </div><!--/.col-md-4-->
-                    <div class="col-12 col-md-4 center">
-                        <a href="https://bodhivita.cat/pni-nutricio-i-dietetica/">
-                            <img src="images/sistema-digestivo.png" alt="Flowers in Chania" width="75" height="75">
-                            <h4 class="colornombres">PNI - Nutrició i Dietètica</h4>
-                            <p class="enlace">Es basa en el mètode de la psiconutrició que neix de la inquietud i interès de transmetre i proporcionar eines sostenibles per tractar el sobrepès, la imatge corporal, els estats d’ànims i altres desafiaments relacionats amb el menjar i el nostre cos.</p></a>
-                    </div><!--/.col-md-4-->
-                </div>
-                <div class="row">
-                    <div class="col-12 col-md-4 center">
-                        <a href="https://bodhivita.cat/rehabilitacio-de-sol-pelvic/">
-                            <img src="images/utero-humano.png" alt="Flowers in Chania" width="75" height="75">
-                            <h4 class="colornombres">Rehabilitació sòl pèlvic</h4>
-                            <p class="enlace">El sòl pèlvic és un conjunt de músculs que serveixen de subjecció de la bufeta, úter i part de l’intestí, pel que la seva debilitat pot originar problemes d’incontinència urinària d’esforç, prolapses genitals i disfuncions sexuals.</p></a>
-                    </div><!--/.col-md-4-->
-                    <div class="col-12 col-md-4 center">
-                        <a href="https://bodhivita.cat/classes-grupals/">
-                            <img src="images/hablando.png" alt="Flowers in Chania" width="75" height="75">
-                            <h4 class="colornombres">Classes Dirigides</h4>
-                            <p class="enlace">A Bodhivita realitzem grups reduïts dirigits per fisioterapeutes, amb un aforament de màxim 4 usuaris, per acomplir amb totes les mesures de prevenció COVID-19 i així puguis continuar gaudint de l’activitat física i l’autocura del teu organisme. També pots rebre classes individualitzades si ho desitges. (Pilates Ioga Feldenkrais)</p></a>
-                    </div><!--/.col-md-4-->
-                    <div class="col-12 col-md-4 center">
-                        <a href="https://bodhivita.cat/coworking/">
-                            <img src="images/Tlogo.png" alt="Flowers in Chania" width="75" height="75">
-                            <h4 class="colornombres">Coworking</h4>
-                            <p class="enlace">Si ets un professional de la salut, Bodhivita posa a la teva disposició el lloguer de consultes i espais del centre. Demana més informació</p></a>
-                    </div><!--/.col-md-4-->
-                </div><!--/.row-->
-            </div><!--/.box-->
-        </div><!--/.container-->
-    </section><!--/#services-->
-
-    <section id="portfolio">
-        <div class="container">
-            <div class="box">
-                <div class="center gap">
-                    <h2>Coneixens millor</h2>
-                    <p class="lead">Et deixem algunes fotografies per que puguis observar on treballem i com ho fem. El nostre objectiu es que et sentis el més còmode possible amb nosaltres y poder oferir-te el millor servei.</p>
-                </div><!--/.center-->
-                <ul class="portfolio-filter">
-                    <li><a class="btn btn-primary active" href="#" data-filter="*">Tot</a></li>
-                    <li><a class="btn btn-primary" href="#" data-filter=".bootstrap">Principal</a></li>
-                    <li><a class="btn btn-primary" href="#" data-filter=".html">Activitats</a></li>
-                    <li><a class="btn btn-primary" href="#" data-filter=".wordpress">Interior</a></li>
-                </ul><!--/#portfolio-filter-->
-                <ul class="portfolio-items col-4">
-                    <li class="portfolio-item bootstrap apps">
-                        <div class="item-inner">
-                            <div class="portfolio-image">
-                                <img src="images/portfolio/thumb/item1.jpg" alt="">
-                                <div class="overlay">
-                                    <a class="preview btn btn-danger" title="Entrevista amb Bodhivita" href="images/portfolio/full/item1.jpg"><i class="icon-eye-open"></i></a>             
-                                </div>
-                            </div>
-                            <h5>Entrevista amb Bodhivita</h5>
-                        </div>
-                    </li><!--/.portfolio-item-->
-                    <li class="portfolio-item bootstrap">
-                        <div class="item-inner">
-                            <div class="portfolio-image">
-                                <img src="images/portfolio/thumb/item2.jpg" alt="">
-                                <div class="overlay">
-                                    <a class="preview btn btn-danger" title="Planol de l'edifici" href="images/portfolio/full/item2.jpg"><i class="icon-eye-open"></i></a>  
-                                </div>
-                            </div> 
-                            <h5>Planol de l'edifici</h5>         
-                        </div>
-                    </li><!--/.portfolio-item-->
-                    <li class="portfolio-item wordpress">
-                        <div class="item-inner">
-                            <div class="portfolio-image">
-                                <img src="images/portfolio/thumb/item3.jpg" alt="">
-                                <div class="overlay">
-                                    <a class="preview btn btn-danger" title="Sala d'espera" href="images/portfolio/full/item3.jpg"><i class="icon-eye-open"></i></a>        
-                                </div> 
-                            </div>
-                            <h5>Sala d'espera</h5>          
-                        </div>           
-                    </li><!--/.portfolio-item-->
-                    <li class="portfolio-item wordpress">
-                        <div class="item-inner">
-                            <div class="portfolio-image">
-                                <img src="images/portfolio/thumb/item4.jpg" alt="">
-                                <div class="overlay">
-                                    <a class="preview btn btn-danger" title="Sala d'espera" href="images/portfolio/full/item4.jpg"><i class="icon-eye-open"></i></a>          
-                                </div>   
-                            </div>
-                            <h5>Sala d'espera</h5>        
-                        </div>           
-                    </li><!--/.portfolio-item-->
-                    <li class="portfolio-item wordpress">
-                        <div class="item-inner">
-                            <div class="portfolio-image">
-                                <img src="images/portfolio/thumb/item5.jpg" alt="">
-                                <div class="overlay">
-                                    <a class="preview btn btn-danger" title="Camilla Fisioterapia" href="images/portfolio/full/item5.jpg"><i class="icon-eye-open"></i></a>          
-                                </div>  
-                            </div>
-                            <h5>Camilla Fisioterapia</h5>  
-                        </div>       
-                    </li><!--/.portfolio-item-->
-                    <li class="portfolio-item wordpress">
-                        <div class="item-inner">
-                            <div class="portfolio-image">
-                                <img src="images/portfolio/thumb/item6.jpg" alt="">
-                                <div class="overlay">
-                                    <a class="preview btn btn-danger" title="Camilla Osteopatia" href="images/portfolio/full/item6.jpg"><i class="icon-eye-open"></i></a>           
-                                </div>  
-                            </div>
-                            <h5>Camilla Osteopatia</h5>         
-                        </div>           
-                    </li><!--/.portfolio-item-->
-                    <li class="portfolio-item html">
-                        <div class="item-inner">
-                            <div class="portfolio-image">
-                                <img src="images/portfolio/thumb/item7.jpg" alt="">
-                                <div class="overlay">
-                                    <a class="preview btn btn-danger" title="Neuropsicologia" href="images/portfolio/full/item7.jpg"><i class="icon-eye-open"></i></a>          
-                                </div>  
-                            </div>
-                            <h5>Neuropsicologia</h5>  
-                        </div>       
-                    </li><!--/.portfolio-item-->
-                    <li class="portfolio-item html">
-                        <div class="item-inner">
-                            <div class="portfolio-image">
-                                <img src="images/portfolio/thumb/item8.jpg" alt="">
-                                <div class="overlay">
-                                    <a class="preview btn btn-danger" title="Fisioteràpia Neurològica" href="images/portfolio/full/item8.jpg"><i class="icon-eye-open"></i></a>           
-                                </div>   
-                            </div>
-                            <h5>Fisioteràpia Neurològica</h5>        
-                        </div>         
-                    </li><!--/.portfolio-item-->
-                    <li class="portfolio-item  html">
-                        <div class="item-inner">
-                            <div class="portfolio-image">
-                                <img src="images/portfolio/thumb/item9.jpg" alt="">
-                                <div class="overlay">
-                                    <a class="preview btn btn-danger" title="Fisioteràpia" href="images/portfolio/full/item9.jpg"><i class="icon-eye-open"></i></a>           
-                                </div>   
-                            </div> 
-                            <h5>Fisioteràpia</h5>        
-                        </div>         
-                    </li><!--/.portfolio-item-->
-                    <li class="portfolio-item html">
-                        <div class="item-inner">
-                            <div class="portfolio-image">
-                                <img src="images/portfolio/thumb/item10.jpg" alt="">
-                                <div class="overlay">
-                                    <a class="preview btn btn-danger" title="Osteopatia" href="images/portfolio/full/item10.jpg"><i class="icon-eye-open"></i></a>           
-                                </div>   
-                            </div>
-                            <h5>Osteopatia</h5>        
-                        </div>         
-                    </li><!--/.portfolio-item-->
-                    <li class="portfolio-item html">
-                        <div class="item-inner">
-                            <div class="portfolio-image">
-                                <img src="images/portfolio/thumb/item11.jpg" alt="">
-                                <div class="overlay">
-                                    <a class="preview btn btn-danger" title="Clase de yoga" href="images/portfolio/full/item11.jpg"><i class="icon-eye-open"></i></a>           
-                                </div>   
-                            </div>
-                            <h5>Clase de yoga</h5>        
-                        </div>         
-                    </li><!--/.portfolio-item-->
-                    <li class="portfolio-item html">
-                        <div class="item-inner">
-                            <div class="portfolio-image">
-                                <img src="images/portfolio/thumb/item12.jpg" alt="">
-                                <div class="overlay">
-                                    <a class="preview btn btn-danger" title="Clase de pilates" href="images/portfolio/full/item12.jpg"><i class="icon-eye-open"></i></a>           
-                                </div>   
-                            </div>
-                            <h5>Clase de pilates</h5>        
-                        </div>         
-                    </li><!--/.portfolio-item-->
-                    <li class="portfolio-item html">
-                        <div class="item-inner">
-                            <div class="portfolio-image">
-                                <img src="images/portfolio/thumb/item13.jpg" alt="">
-                                <div class="overlay">
-                                    <a class="preview btn btn-danger" title="Acupuntura" href="images/portfolio/full/item13.jpg"><i class="icon-eye-open"></i></a>           
-                                </div>   
-                            </div>
-                            <h5>Acupuntura</h5>        
-                        </div>         
-                    </li><!--/.portfolio-item-->
-                </ul>   
-            </div><!--/.box-->
-        </div><!--/.container-->
-    </section><!--/#portfolio-->
-
-    <section id="pricing">
-        <div class="container">
-            <div class="box">
-                <div class="center">
-                    <h2>Els nostres packs</h2>
-                    <p class="lead">Estem segurs de que els nostres packs econòmics <br> et faran gaudir de la tranquil·litat que et mereixes.</p>
-                </div><!--/.center-->   
-                <div class="big-gap"></div>
-                <div id="pricing-table" class="row">
-                    <div class="col-12 col-md-12 col-lg-4">
-                        <ul class="plan">
-                            <li class="plan-name">Bàsic</li>
-                            <li class="plan-price">30€</li>
-                            <li>Clase Dirigida a escollir</li>
-                            <li>Estiraments</li>
-                            <li>Meditació</li>
-                            <li class="plan-action"><a href="https://connect.timp.pro/centers/4879-bodhivita" class="btn btn-primary btn-lg">Reserva la teva sessió</a></li>
-                        </ul>
-                    </div><!--/.col-sm-4-->
-                    <div class="col-12 col-md-12 col-lg-4" >
-                        <ul class="plan featured">
-                            <li class="plan-name">Complert</li>
-                            <li class="plan-price">100€</li>
-                            <li>Clase Dirigida a escollir</li>
-                            <li>Estiraments</li>
-                            <li>Massatge a escollir</li>
-                            <li>Acupuntrua MSC</li>
-                            <li>Meditació</li>
-                            <li class="plan-action"><a href="https://connect.timp.pro/centers/4879-bodhivita" class="btn btn-primary btn-lg">Reserva la teva sessió</a></li>
-                        </ul>
-                    </div><!--/.col-sm-4-->
-                    <div class="col-12 col-md-12 col-lg-4">
-                        <ul class="plan">
-                            <li class="plan-name">Estàndard</li>
-                            <li class="plan-price">50€</li>
-                            <li>Clase Dirigida a escollir</li>
-                            <li>Estiraments</li>
-                            <li>Massatge a escollir</li>
-                            <li>Meditació</li>
-                            <li class="plan-action"><a href="https://connect.timp.pro/centers/4879-bodhivita" class="btn btn-primary btn-lg">Reserva la teva sessió</a></li>
-                        </ul>
-                    </div><!--/.col-sm-4-->
-                </div> 
-            </div> 
-        </div>
-    </section><!--/#pricing-->
-
-    <section id="contact">
-        <div class="container">
-            <div class="box last">
-                <div class="row">
-                    <div class="col-sm-6">
-                        <h1>Les nostres xarxes</h1>
-                        <div class="row">
-                            <div class="col-md-6">
-                                <ul class="social">
-                                    <li><a href="https://www.facebook.com/bodhivita"><i class="icon-facebook icon-social"></i> Facebook</a></li>
-                                    <li><a href="https://www.youtube.com/"><i class="icon-youtube icon-social"></i> Youtube</a></li>
-                                </ul>
-                            </div>
-                            <div class="col-md-6">
-                                <ul class="social">
-                                    <li><a href="https://www.instagram.com/bodhivita/"><i class="icon-instagram icon-social"></i> Instagram</a></li>
-                                    <li><a href="https://twitter.com/?lang=es"><i class="icon-twitter icon-social"></i> Twitter</a></li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div><!--/.col-sm-6-->
-                    <div class="col-sm-6">
-                        <h1>On estem?</h1>
-                        <div class="row">
-                            <div class="col-md-6">
-                                <address>
-                                    <strong>Bodhivita S.L.</strong><br>
-                                    Carrer Concepció Arenal 293<br>
-                                    08030 Barcelona, España<br>
-                                </address>
-                            </div>
-                            <div class="col-md-6">
-                                <address>
-                                    <strong>Contactes</strong><br>
-                                    93 511 23 03<br>
-                                    661 457 837<br>
-                                    santandreu@bodhivita.cat
-                                </address>
-                            </div>
-                            <div class="col-12">
-                                <div class="center">
-                                    <iframe frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?q=Bodhivita&amp;t=m&amp;z=12&amp;output=embed&amp;iwloc=near" title="Bodhivita" aria-label="Bodhivita"></iframe>
-                                </div>
-                            </div>
-                        </div>
-                    </div><!--/.col-sm-6-->
-                </div><!--/.row-->
-            </div><!--/.box-->
-        </div><!--/.container-->
-    </section><!--/#contact-->
-
-    <footer id="footer">
-        <div class="container">
-            <div class="row">
-                <div class="col-sm-12">
-                   <p>© 2021 Bodhivita: Bodhivita Barcelona no puede asumir ninguna responsabilidad derivada del uso incorrecto, inapropiado o ilícito de la información aparecida en las páginas de Internet de www.Bodhivita.com. Las páginas de Internet de www.Bodhivita.com pueden contener enlaces (links) a otras páginas de terceras partes que www.Bodhivita.com no puede controlar. Por lo tanto, www.Bodhivita.com no puede asumir responsabilidades por el contenido que pueda aparecer en páginas de terceros.</p>
-                </div>
-            </div>
-        </div>
-    </footer><!--/#footer-->
-</body>
-</html>
+	<BODY>
+		<DIV class="contenedor">
+			<DIV class="titulo">Título página web</DIV>
+			
+			<DIV class="menusuperior">
+				<DIV class="menu"><A href="#">Link1</A></DIV>
+				<DIV class="menu"><A href="#">Link2</A></DIV>
+				<DIV class="menu"><A href="#">Link3</A></DIV>
+				<DIV class="menu"><A href="#">Link4</A></DIV>
+				<DIV class="menu"><A href="#">Link5</A></DIV>
+				<DIV class="menu"><A href="#">Link6</A></DIV>
+				<DIV class="menu"><A href="#">Link7</A></DIV>
+				<DIV class="menu"><A href="#">Link8</A></DIV>
+				<DIV class="menu"><A href="#">Link9</A></DIV>
+				<DIV class="menu"><A href="#">Link10</A></DIV>
+			</DIV>
+			<BR/>
+			<DIV> <!--División general-->
+				<DIV class="lateralizq">
+					<H2>Menu principal</H2>
+					<H3>Entrada 1</H3>
+					<H3>Entrada 2</H3>
+					<H3>Entrada 3</H3>
+					<H3>Entrada 4</H3>
+					<H3>Entrada 5</H3>
+					<H3>Entrada 6</H3>
+					<H3>Entrada 7</H3>
+					<H3>Entrada 8</H3>
+					<H3>Entrada 9</H3>
+					<H3>Entrada 10</H3>
+					<H3>Entrada 11</H3>
+				</DIV>
+			
+				<DIV class="contenido">
+					<DIV>
+						<H1>Título de contenido</H1>
+						<P>Texto para el contenido del primer título
+						</P>
+					</DIV>
+					
+					<H1>Título de contenido 2</H1>
+					<P>Texto para el contenido del segundo título
+					</P>
+					<H1>Título de contenido 3</H1>
+					<P>Texto para el contenido del tercer título
+					</P>
+				</DIV>
+			</DIV>	
+		</DIV>
+		
+		<DIV class="piedepagina">
+			Página Web creada por Raúl Caro Pastorino
+			Copyright 2014
+		</DIV>
+	</BODY>
+</HTML>
