@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="ca">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <title>⭐️ Fisioteràpia · Osteopatia BARCELONA ▷ Sant Andreu</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/font-awesome.min.css" rel="stylesheet">
+    <link href="css/prettyPhoto.css" rel="stylesheet">
+    <link href="css/main.css" rel="stylesheet">
+    <!--[if lt IE 9]>
+    <script src="js/html5shiv.js"></script>
+    <script src="js/respond.min.js"></script>
+    <![endif]-->
+    <link rel="shortcut icon" href="images/ico/favicon.ico">
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="images/ico/apple-touch-icon-144-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="images/ico/apple-touch-icon-114-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="images/ico/apple-touch-icon-72-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" href="images/ico/apple-touch-icon-57-precomposed.png">
+</head><!--/head-->
+
+<body data-spy="scroll" data-target="#navbar" data-offset="0">
+
+    <header id="header" role="banner">
+        <div class="container">
+            <div id="navbar" class="navbar navbar-default">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="index.html"></a>
+                </div>
+                <div class="collapse navbar-collapse center colornombres">
+                    <ul class="nav navbar-nav">
+                        <li class="active colornombres"><a href="index.html#main-slider"><i class="icon-home"></i></a></li>
+                        <li><a href="index.html#service">Serveis</a></li>
+                        <li><a href="index.html#portfolio">Coneixens</a></li>
+                        <li><a href="index.html#pricing">Packs</a></li>
+                        <li><a href="index.html#contact">Contacte</a></li>
+                    </ul>
+                    <a href="https://connect.timp.pro/centers/4879-bodhivita" class="btn btn-primary btn-lg center" style="margin-top: 15px">Reserva la teva sessió</a>
+                </div>
+            </div>
+        </div>
+    </header><!--/#header-->
+
+    <section id="contact" style="margin-top: 50PX;">
+        <div class="container">
+            <div class="box last">
+                <div class="row">
+                    <div class="col-sm-12">
+                        <h1>Formulari de contacte</h1>
+                        <p>Si té qualsevol dubte o consulta no dubtis en deixar-nos les teves dades i nosaltres contactaermos amb tu.</p>
+                        <div class="status alert alert-success" style="display: none"></div>
+
+                        <form id="form" class="contact-form" name="form" action="prueba.php" method="POST" enctype="multipart/form-data">
+                            <fieldset>
+                                <div class="row">
+                                    <div class="col-sm-6">
+                                        <div class="form-group">
+                                            <input type="text" class="form-control" name="nom" id="nom" required placeholder="Nom *" maxlength="30">
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-6">
+                                        <div class="form-group">
+                                            <input type="text" class="form-control" name="cognom" id="cognom" placeholder="Cognoms" maxlength="50">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-sm-6">
+                                        <div class="form-group">
+                                            <input type="email" class="form-control" name="mail" id="mail" required placeholder="Email de contacte *">
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-6">
+                                        <div class="form-group">
+                                            <input type="text" class="form-control" name="telefon" id="telefon" placeholder="Telèfon" maxlength="20" pattern="[0-9]+">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-sm-6">
+                                        <div class="form-group" style="display: block; width: 100%; height: 34px; padding: 6px 12px; font-size: 14px; line-height: 1.428571429; color: #555; vertical-align: middle; background-color: #111111; border-radius: 4px; -webkit-box-shadow: inset 0 1px 1px rgb(0 0 0 / 8%); box-shadow: inset 0 1px 1px rgb(0 0 0 / 8%); -webkit-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s; transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;">
+                                            <p>Sexe: *
+                                                <label for="dona">Dona </label>
+                                                <input type="radio" id="dona" name="sexo" value="dona" required>
+                                                <label for="home">Home </label>
+                                                <input type="radio" id="home" name="sexo" value="home" required>
+                                                <label for="altres">Altres </label>
+                                                <input type="radio" id="altres" name="sexo" value="altres" required>
+                                                <label for="nocontesta">Prefereixo no contestar </label>
+                                                <input type="radio" id="nocontesta" name="sexo" value="nocontesta" required></p>
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-6">
+                                            <div class="form-group">
+                                                <select id="actividad" name="actividades" style="display: block; width: 100%; height: 34px; padding: 6px 12px; font-size: 14px; line-height: 1.428571429; color: #555; vertical-align: middle; background-color: #111111; border-radius: 4px; -webkit-box-shadow: inset 0 1px 1px rgb(0 0 0 / 8%); box-shadow: inset 0 1px 1px rgb(0 0 0 / 8%); -webkit-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s; transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;">
+                                                    <option value="Altres"name="Altres">Altres</option>
+                                                    <option value="Packs" name="Packs">Packs</option>
+                                                    <option value="Preus" name="Preus">Preus</option>
+                                                    <option value="Ubicació"name="Ubicacio">Ubicació</option>
+                                                    <option value="Osteopatia"name="Osetopatia">Osteopatia</option>
+                                                    <option value="Fisioteràpia neurològica"name="Fisioterapia neurologica">Fisioteràpia neurològica</option>
+                                                    <option value="Logopèdia"name="Logopedia">Logopèdia</option>
+                                                    <option value="Fisioteràpia traumatològica"name="Fisioterapia traumatologica">Fisioteràpia traumatològica</option>
+                                                    <option value="Fisioteràpia pediàtrica"name="Fisioterapia pediatrica">Fisioteràpia pediàtrica</option>
+                                                    <option value="Osteopatia pediàtrica"name="Osteopatia pediatrica">Osteopatia pediàtrica</option>
+                                                    <option value="Neuropsicologia"name="Neuropsicologia">Neuropsicologia</option>
+                                                    <option value="Acupuntura MTC"name="Acupuntura MTC">Acupuntura MTC</option>
+                                                    <option value="PNI Nutrició i dietètica"name="PNI Nutricio i dietetica">PNI Nutrició i dietètica</option>
+                                                    <option value="Rehabilitació sòl pèlvic"name="Reahbilitacio sol pelvic">Rehabilitació sòl pèlvic</option>
+                                                    <option value="Classes dirigides"name="Classes dirigides">Classes dirigides</option>
+                                                    <option value="Coworking"name="Coworking">Coworking</option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-sm-12">
+                                            <div class="form-group">
+                                                <textarea name="message" id="message" required class="form-control" rows="8" placeholder="Consulta *"></textarea>
+                                            </div>
+                                            <div class="form-group col-6">
+                                                <button type="submit" name="Enviar" class="btn btn-danger btn-lg">Enviar la consulta</button>
+                                                <button type="reset" class="btn btn-danger btn-lg">Restablir el formulari</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </fieldset>
+                            </form>
+
+                        </div><!--/.col-sm-6-->
+                    </div><!--/.row-->
+                </div><!--/.box-->
+            </div><!--/.container-->
+        </section><!--/#contact-->
+
+        <footer id="footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-12">
+                     <p>© 2021 Bodhivita: Bodhivita Barcelona no puede asumir ninguna responsabilidad derivada del uso incorrecto, inapropiado o ilícito de la información aparecida en las páginas de Internet de www.Bodhivita.com. Las páginas de Internet de www.Bodhivita.com pueden contener enlaces (links) a otras páginas de terceras partes que www.Bodhivita.com no puede controlar. Por lo tanto, www.Bodhivita.com no puede asumir responsabilidades por el contenido que pueda aparecer en páginas de terceros.</p>
+                 </div>
+             </div>
+         </div>
+     </footer><!--/#footer-->
+
+ </body>
+ </html>

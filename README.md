@@ -1,3 +1,0 @@
-# AplicacionGimnasio
-
-_Hola_
