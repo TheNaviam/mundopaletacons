@@ -221,6 +221,7 @@ a:focus {
   background: #fff;
   padding: 10px;
   border-bottom: 1px solid #e1e1e1;
+  width: 250px;
 }
 .portfolio-item img {
   width: 100%;
