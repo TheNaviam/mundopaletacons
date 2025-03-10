@@ -358,6 +358,9 @@ a:focus {
   border-bottom-color: #458ab3;
   margin: 0;
 }
+#pricing .featured-image {
+  margin: 15px;
+}
 #services .box {
   padding-bottom: 0;
 }
