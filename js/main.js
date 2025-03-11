@@ -26,6 +26,15 @@ jQuery(function($) {
 		}, 500);
 	});
 
+	//cerrar navar
+	$(document).ready(function () {
+        $(".navbar-nav li a").click(function () {
+            if ($(".navbar-toggle").is(":visible")) {
+                $(".navbar-collapse").collapse("hide");
+            }
+        });
+    });
+
 	//scrollspy
 	$('[data-spy="scroll"]').each(function () {
 		var $spy = $(this).scrollspy('refresh')
